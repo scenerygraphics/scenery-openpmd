@@ -1,0 +1,14 @@
+name: scenery-python
+channels:
+  - defaults
+dependencies:
+  - python=3.9
+  - scyjava
+  - openpmd-api
+  - pyobjc-framework-cocoa
+  - pyobjc-core
+  - h5py
+  - ca-certificates
+  - certifi
+  - openssl
+prefix: /opt/miniconda3/envs/scenery-python
