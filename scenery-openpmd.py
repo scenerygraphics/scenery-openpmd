@@ -12,7 +12,7 @@ scyjava.config.add_repositories({'jitpack.io': 'https://jitpack.io'})
 scyjava.config.endpoints.append("net.imagej:imagej")
 scyjava.config.endpoints.append("org.slf4j:slf4j-simple:1.7.25")
 scyjava.config.endpoints.append("org.jetbrains.kotlin:kotlin-stdlib:1.7.20")
-scyjava.config.endpoints.append('graphics.scenery:scenery:0.7.0-beta-8-SNAPSHOT-00')
+scyjava.config.endpoints.append('graphics.scenery:scenery:bc926503')
 
 # scenery imports, they need to happen after the JVM has started
 # so they are visible to Python
